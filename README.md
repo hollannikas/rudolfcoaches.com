@@ -1,5 +1,7 @@
 # Rudolfcoaches
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a3015c46-6d13-477d-b13d-c411bbfed773/deploy-status)](https://app.netlify.com/sites/suspicious-hermann-5647f3/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
