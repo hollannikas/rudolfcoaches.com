@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rudolfcoaches"
+    }
+  },
+  "defaultProject": "rudolfcoaches",
+  "cli": {
+    "analytics": "c7b2e24f-3676-494c-bf8e-10ca4e4e9c54"
+  }
 }
