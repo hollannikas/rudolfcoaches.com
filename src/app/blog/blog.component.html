@@ -1,0 +1,7 @@
+<div *ngIf="entries$ | async as entry; else loading">
+  <h2> {{ entry.fields.title }}</h2>
+  <p> {{ entry.fields.text }}</p>
+</div>
+<ng-template #loading>
+  Loading...
+</ng-template>
