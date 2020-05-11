@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { CONFIG } from './config';
 import { createClient, Entry } from 'contentful';
 import { from, Observable } from 'rxjs';
 import { map, mergeAll} from 'rxjs/operators';
+import { environment } from '../environments/environment';
 
 export interface ContentfulResponse {
   items: Entry<Blog>[];
@@ -23,8 +23,8 @@ export class ContentfulService {
 
   constructor() {
     this.cdaClient = createClient({
-      space: CONFIG.space,
-      accessToken: CONFIG.accessToken
+      space: environment.netlify.space,
+      accessToken: environment.netlify.accessToken
     });
   }
 
